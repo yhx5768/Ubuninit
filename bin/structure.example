@@ -1,0 +1,48 @@
+bin/
+├── android_studio
+│   ├── android-sdk_r24.4.1-linux.tgz
+│   ├── android-studio-ide-143.2915827-linux.zip
+│   ├── jetbrains-studio.desktop
+│   └── platform-tools_r24rc2-linux_rc2.zip
+├── apache-ant
+│   ├── apache-ant-1.9.7-bin.tar.bz2
+│   └── apache-ant.sh
+├── chrome
+│   ├── google-chrome-stable_current_amd64.deb
+│   └── Proxy-SwitchyOmega_v2.3.19.zip
+├── filezilla
+│   ├── filezilla.xml
+│   └── sitemanager.xml
+├── gnome-extensions
+│   ├── maximus-two@wilfinitlike.gmail.com.zip
+│   └── system-monitor@paradoxxx.zero.gmail.com.zip
+├── grub_customizer
+│   └── grub-customizer_5.0.6-0ubuntu1-ppa1x_amd64.deb
+├── gtk
+│   └── gtk.css
+├── java
+│   ├── ant
+│   │   └── apache-ant-1.9.7-bin.tar.bz2
+│   ├── jdk-8u92-linux-x64.tar.gz
+│   └── use_java
+├── sogou
+│   ├── Default_black
+│   │   ├── Default_black.ssf
+│   │   └── skin.ini
+│   ├── main.conf
+│   ├── sogoupinyin_2.0.0.0078_amd64.deb
+│   └── useSkin.txt
+├── structure.example
+├── sublime
+│   ├── subl.desktop
+│   └── SublimeText2.tar.gz
+├── theme
+│   └── humanity-icon-theme_0.6.10.tar.gz
+├── tilda
+│   ├── config_0
+│   └── tilda_reset
+└── tools
+    └── fast-rm
+
+15 directories, 29 files
+
