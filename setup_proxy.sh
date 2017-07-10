@@ -1,11 +1,11 @@
 #!/bin/bash
 source ./apt_getw.sh
 
-pip install shadowsocks
+sudo apt install -y shadowsocks
 
 cp -r ./base/shadowsocks ~/Tools
 
-sslocal -c ~/program/shadowsocks/config.json start &
+sslocal -c ~/Tools/shadowsocks/config.json start &
 
 cp -r ./base/proxy/.proxychains ~/
 
