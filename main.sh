@@ -65,7 +65,7 @@ run() {
 
 #check connection
 echo "Checking ipv6 connection..."
-if ping6 -c 1 ipv6.soarx.cc >> /dev/null 2>&1; then
+if ping6 -c 1 google.com >> /dev/null 2>&1; then
     echo "ipv6 ok"
 else
     echo "ipv6 not work, please check it!"
@@ -89,6 +89,7 @@ echo "Basic packages Done!"
 echo "setting up proxy..."
 run setup_proxy
 export http_proxy="http://127.0.0.1:8123"
+export https_proxy="http://127.0.0.1:8123"
 echo "Proxy Done!"
 
 # Part 2
