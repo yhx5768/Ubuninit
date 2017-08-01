@@ -6,3 +6,5 @@
 !/base/structure.example
 
 *.log
+
+/python_task/test.py
