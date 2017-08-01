@@ -65,7 +65,7 @@ run() {
 
 #check connection
 echo "Checking ipv6 connection..."
-if ping6 -c 1 google.com >> /dev/null 2>&1; then
+if ping6 -c 1 mirrors6.tuna.tsinghua.edu.cn >> /dev/null 2>&1; then
     echo "ipv6 ok"
 else
     echo "ipv6 not work, please check it!"
