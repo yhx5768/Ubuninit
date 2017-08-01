@@ -8,6 +8,12 @@ if os.geteuid() != 0:
 	print "YOU NEED SUDO TO RUN THIS!"
 
 
+command_list = [
+			'install_chrome',
 
-b = cmd.getstatusoutput('sudo apt-get update')
-print b
+			'setup_tilda',
+			'setup_google_pinyin',
+			'setup_atom',
+			'setup_android_studio',
+			'setup_pycharm'
+			]
