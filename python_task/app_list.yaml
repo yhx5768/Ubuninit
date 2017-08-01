@@ -4,5 +4,6 @@ setup_tilda
 setup_google_pinyin
 setup_atom
 setup_java
+
 setup_android_studio
 setup_pycharm
