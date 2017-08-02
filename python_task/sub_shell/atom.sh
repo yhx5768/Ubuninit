@@ -9,5 +9,5 @@ fi
 
 if [[ "$1" == "setting" ]]; then
     mkdir ~/.atom
-    cp "$UBUINT/bin/atom/*" ~/.atom/
+    cp $UBUINT/bin/atom/* ~/.atom/
 fi
